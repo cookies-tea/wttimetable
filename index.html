@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time-Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 10px;
+        }
+        .section-info {
+            flex: 1;
+        }
+        .section-info h3, .section-info h4 {
+            margin: 0;
+            padding: 5px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+        table, th, td {
+            border: 2px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color:chartreuse;
+            color:red;
+        }
+        tr:nth-child(odd) {
+            background-color:bisque;
+        }
+    </style>
+</head>
+<body>
+    <h2>B.Tech III Year 1 Sem Time Table</h2>
+    <div class="container">
+        <div class="section-info">
+            <h3>CSM-A Room No. 402</h3>
+            <h3>Class Teacher: Ms. Jyothi</h3>
+            <h4>W.E.F: 22-8-2022</h4>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>9:30 - 10:20</th>
+            <th>10:20 - 11:10</th>
+            <th>11:10 - 11:25</th>
+            <th>11:25 - 12:15</th>
+            <th>12:15 - 1:05</th>
+            <th>1:05 - 1:50</th>
+            <th>1:50 - 2:40</th>
+            <th>2:40 - 3:30</th>
+            <th>3:30 - 4:20</th>
+        </tr>
+        <tr>
+            <td style="background-color: chartreuse;color: red;">Mon</td>
+            <td>DLVS</td>
+            <td>PP</td>
+            <td rowspan="6">Break</td>
+            <td colspan="2">WT</td>
+            <td rowspan="6">Lunch</td>
+            <td colspan="3">DAA</td>
+        </tr>
+        <tr>
+            <td style="background-color: chartreuse;color: red;">Tue</td>
+            <td>SE</td>
+            <td>PP</td>
+            <td colspan="2">DLVS</td>
+            <td COLSPAN="3">DAA</td>
+        </tr>
+        <tr>
+            <td style="background-color: chartreuse;color: red;">Wed</td>
+            <td colspan="2">SE</td>
+            <td>WT</td>
+            <td>DLVS</td>
+            <td>PP</td>
+            <td>WT</td>
+            <td>SE</td>
+        </tr>
+        <tr>
+            <td style="background-color: chartreuse;color: red;">Thur</td>
+            <td colspan="2">DAA</td>
+            <td colspan="2">WT</td>
+            <td colspan="3">DLVS</td>
+        </tr>
+        <tr>
+            <td style="background-color: chartreuse;color: red;">Fri</td>
+            <td colspan="2">DAA</td>
+            <td>PP</td>
+            <td>SE</td>
+            <td colspan="3">DLVS</td>
+        </tr>
+        <tr>
+            <td style="background-color: chartreuse;color: red;">Fri</td>
+            <td colspan="2">DAA</td>
+            <td colspan="2">DAA</td>
+            <td colspan="2">DLVS</td>
+            <td>SE</td>
+        </tr>
+    </table>
+</body>
+</html>
